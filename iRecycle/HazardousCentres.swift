@@ -1,12 +1,3 @@
-//
-//  HazardousCentres.swift
-//  iRecycle
-//
-//  Created by Luca Santarelli on 16/01/2020.
-//  Copyright © 2020 Luca Santarelli. All rights reserved.
-//
-
-/* This class was created to be used to implement any additional features in the H. CENTRES tab bar view easily. */
 
 import UIKit
 

@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  iRecycle
-//
-//  Created by Luca Santarelli on 03/05/2020.
-//  Copyright © 2020 QueenMary. All rights reserved.
-//
 
 import UIKit
 

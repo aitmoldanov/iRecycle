@@ -1,13 +1,3 @@
-//
-//  ViewController.swift
-//  iRecycle
-//
-//  Created by Luca Santarelli on 12/11/2019.
-//  Copyright © 2019 Luca Santarelli. All rights reserved.
-//
-
-/* This is the main class used for the app's main view (HOME).
-   Here is where the database with intial pre-saved data will be initialised.*/
 
 import UIKit
 import RealmSwift //Importing library for the Realm database to function.

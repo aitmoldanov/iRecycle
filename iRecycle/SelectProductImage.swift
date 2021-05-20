@@ -1,10 +1,3 @@
-//
-//  SelectProductImage.swift
-//  iRecycle
-//
-//  Created by Luca Santarelli on 05/03/2020.
-//  Copyright © 2020 Luca Santarelli. All rights reserved.
-//
 
 /* This class was created and used to implement the view allowing the user to choose one of the four images returned by the API, for the unidentified product, to then save on the database. */
 

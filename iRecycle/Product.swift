@@ -1,12 +1,3 @@
-//
-//  Product.swift
-//  iRecycle
-//
-//  Created by Luca Santarelli on 24/01/2020.
-//  Copyright © 2020 Luca Santarelli. All rights reserved.
-//
-
-/* Class with the properties to where to save the product's data, when needing to save it on the Realm database.*/
 
 import Foundation
 import RealmSwift //Library imported to use the Realm database.

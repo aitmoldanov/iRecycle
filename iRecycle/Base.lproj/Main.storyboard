@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3cn-KR-K3t">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3cn-KR-K3t">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -26,13 +27,13 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3L-x4-Iet">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3L-x4-Iet">
                                 <rect key="frame" x="129" y="363" width="117" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="0.82106050529999997" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                 <state key="normal" title="Search product">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" systemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -44,6 +45,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="aWJ-wM-ZEg"/>
                         <color key="backgroundColor" red="0.83084592479999997" green="1" blue="0.69016472630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="S7W-je-ds1" firstAttribute="top" secondItem="qjm-J1-BHh" secondAttribute="bottom" constant="78" id="3qt-nI-8hI"/>
@@ -53,7 +55,6 @@
                             <constraint firstItem="aWJ-wM-ZEg" firstAttribute="trailing" secondItem="qjm-J1-BHh" secondAttribute="trailing" constant="16" id="VTg-dO-SyL"/>
                             <constraint firstItem="qjm-J1-BHh" firstAttribute="top" secondItem="aWJ-wM-ZEg" secondAttribute="top" constant="130" id="mNg-mQ-W2e"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="aWJ-wM-ZEg"/>
                     </view>
                     <navigationItem key="navigationItem" id="nmF-Ru-C6w"/>
                     <connections>
@@ -97,7 +98,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLU-tp-5tH" userLabel="ManualBarcode">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLU-tp-5tH" userLabel="ManualBarcode">
                                 <rect key="frame" x="63.666666666666657" y="435.66666666666669" width="247.99999999999997" height="29"/>
                                 <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="0.70208154970000003" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -106,7 +107,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="11"/>
                                 <state key="normal" title="TAP ME TO INPUT AN EAN 13 BARCODE">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" systemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -118,6 +119,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="yym-8v-ZfD"/>
                         <color key="backgroundColor" red="0.83084592479999997" green="1" blue="0.69016472630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Gah-lE-1BH" firstAttribute="leading" secondItem="fOX-Fv-jvF" secondAttribute="leading" constant="50" id="D9z-Kz-r8P"/>
@@ -127,7 +129,6 @@
                             <constraint firstAttribute="trailing" secondItem="Gah-lE-1BH" secondAttribute="trailing" constant="50" id="waF-6r-Rwy"/>
                             <constraint firstItem="Gah-lE-1BH" firstAttribute="top" secondItem="yym-8v-ZfD" secondAttribute="top" constant="150" id="xNC-qg-2IC"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="yym-8v-ZfD"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="HOME" image="Home" id="DiO-Gs-THn"/>
                     <navigationItem key="navigationItem" id="ONO-iu-aaJ"/>
@@ -153,8 +154,8 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" red="0.85459544340000004" green="1" blue="0.70469416699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="r9p-g9-rnT"/>
+                        <color key="backgroundColor" red="0.85459544340000004" green="1" blue="0.70469416699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="D. CENTRES" image="Disposal" id="eQw-gc-zqS"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -179,8 +180,8 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" red="0.85459544340000004" green="1" blue="0.70469416699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Kon-yv-PLr"/>
+                        <color key="backgroundColor" red="0.85459544340000004" green="1" blue="0.70469416699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="RECYCLING" image="Recycle" largeContentSizeImage=" " id="3l2-2P-n6S"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -205,8 +206,8 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" red="0.85459544340000004" green="1" blue="0.70469416699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="CI4-Xd-3jc"/>
+                        <color key="backgroundColor" red="0.85459544340000004" green="1" blue="0.70469416699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="H. CENTRES" image="Biohazard" id="7sv-gR-dII"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -231,8 +232,8 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" red="0.85459544340000004" green="1" blue="0.70469416699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="UMS-OL-Cs4"/>
+                        <color key="backgroundColor" red="0.85459544340000004" green="1" blue="0.70469416699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="T. HAMLETS" image="THlogo" id="IUj-Ea-Rax"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -268,6 +269,7 @@
                                 <color key="backgroundColor" red="0.85459544340000004" green="1" blue="0.70469416699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="kJj-sN-HKG"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="dLa-fq-mWM" firstAttribute="top" secondItem="BD4-3g-NHU" secondAttribute="top" id="4Ev-hM-HUH"/>
@@ -275,7 +277,6 @@
                             <constraint firstItem="dLa-fq-mWM" firstAttribute="trailing" secondItem="kJj-sN-HKG" secondAttribute="trailing" id="m9S-9b-ruv"/>
                             <constraint firstItem="kJj-sN-HKG" firstAttribute="bottom" secondItem="dLa-fq-mWM" secondAttribute="bottom" constant="663" id="siX-LR-7SW"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="kJj-sN-HKG"/>
                     </view>
                     <navigationItem key="navigationItem" id="uAu-FF-hdP"/>
                     <connections>
@@ -316,8 +317,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.84967816740000002" green="1" blue="0.73484777499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="aNf-Af-Rcz"/>
+                        <color key="backgroundColor" red="0.84967816740000002" green="1" blue="0.73484777499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="JfL-Hh-RjG"/>
                     <connections>
@@ -368,8 +369,8 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Na9-pV-HSh">
                                 <rect key="frame" x="16" y="296" width="343" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <userDefinedRuntimeAttributes>
@@ -378,13 +379,13 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUP-ME-PmS">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUP-ME-PmS">
                                 <rect key="frame" x="97" y="690" width="180" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="0.82106050529999997" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                 <state key="normal" title="Save product information">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" systemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -416,7 +417,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Select image">
                                             <attributes>
-                                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="NSColor" systemColor="darkTextColor"/>
                                                 <font key="NSFont" size="15" name="Futura-Medium"/>
                                                 <integer key="NSUnderline" value="1"/>
                                             </attributes>
@@ -433,7 +434,7 @@
                                     <segue destination="QkB-Gy-OXK" kind="modal" identifier="selectImage" id="3lI-2C-Yp6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0KA-rm-hO8">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0KA-rm-hO8">
                                 <rect key="frame" x="195" y="159" width="68" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -468,13 +469,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="M0J-6d-YGV"/>
                         <color key="backgroundColor" red="0.84967816740000002" green="1" blue="0.73484777499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="kFf-Db-8QO" firstAttribute="top" secondItem="M0J-6d-YGV" secondAttribute="top" constant="25" id="4F5-O7-T1f"/>
                             <constraint firstItem="M0J-6d-YGV" firstAttribute="trailing" secondItem="kFf-Db-8QO" secondAttribute="trailing" constant="16" id="UP8-Bi-dHv"/>
                             <constraint firstItem="kFf-Db-8QO" firstAttribute="leading" secondItem="M0J-6d-YGV" secondAttribute="leading" constant="16" id="cRn-1t-hVF"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="M0J-6d-YGV"/>
                     </view>
                     <navigationItem key="navigationItem" id="q5x-hB-Hld"/>
                     <connections>
@@ -511,7 +512,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1w-mf-SCb">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1w-mf-SCb">
                                 <rect key="frame" x="15" y="174" width="168" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="0.2602393617" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -523,7 +524,7 @@
                                     <action selector="imageOneAction:" destination="QkB-Gy-OXK" eventType="touchUpInside" id="N3i-If-eNx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOB-sa-NK2" userLabel="reshuffle">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOB-sa-NK2" userLabel="reshuffle">
                                 <rect key="frame" x="128" y="692" width="119" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="0.82106050529999997" colorSpace="custom" customColorSpace="sRGB"/>
@@ -540,7 +541,7 @@
                                     <action selector="noMatchImage:" destination="QkB-Gy-OXK" eventType="touchUpInside" id="7RP-xe-swY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ThX-AT-Lrf">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ThX-AT-Lrf">
                                 <rect key="frame" x="16" y="394" width="168" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="0.2602393617" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -552,7 +553,7 @@
                                     <action selector="imageThreeAction:" destination="QkB-Gy-OXK" eventType="touchUpInside" id="gde-ir-7Ec"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqc-BX-JNe">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqc-BX-JNe">
                                 <rect key="frame" x="191" y="394" width="168" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="0.2602393617" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -564,7 +565,7 @@
                                     <action selector="imageFourAction:" destination="QkB-Gy-OXK" eventType="touchUpInside" id="Y7w-CJ-g4x"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhs-g4-TCA">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhs-g4-TCA">
                                 <rect key="frame" x="191" y="174" width="168" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="0.2602393617" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -577,8 +578,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.83084592479999997" green="1" blue="0.69016472630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="oTd-du-f5p"/>
+                        <color key="backgroundColor" red="0.83084592479999997" green="1" blue="0.69016472630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="imageFour" destination="tqc-BX-JNe" id="42o-UR-F1Q"/>
@@ -675,7 +676,7 @@ of London</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9iQ-o3-4NE" userLabel="PdfLink">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9iQ-o3-4NE" userLabel="PdfLink">
                                                 <rect key="frame" x="128" y="859" width="110" height="32"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
@@ -719,7 +720,7 @@ of London</string>
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EYs-QV-kRi" userLabel="LinkTwo">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EYs-QV-kRi" userLabel="LinkTwo">
                                                 <rect key="frame" x="91" y="949" width="185" height="32"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
@@ -754,6 +755,7 @@ of London</string>
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="RGQ-no-O05"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="KDO-fB-BAh" firstAttribute="top" secondItem="gw2-st-bLX" secondAttribute="top" id="9g0-l0-7M9"/>
@@ -762,7 +764,6 @@ of London</string>
                             <constraint firstAttribute="trailing" secondItem="KDO-fB-BAh" secondAttribute="trailing" id="gTO-63-sjN"/>
                             <constraint firstItem="KDO-fB-BAh" firstAttribute="leading" secondItem="gw2-st-bLX" secondAttribute="leading" id="mlb-op-rry"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="RGQ-no-O05"/>
                     </view>
                     <size key="freeformSize" width="375" height="1000"/>
                 </viewController>
@@ -880,6 +881,7 @@ of London</string>
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="oCI-BF-FwG"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="C1Y-AD-Cc6" firstAttribute="leading" secondItem="TLO-EH-q3s" secondAttribute="leading" id="Z0T-5G-Pca"/>
@@ -888,7 +890,6 @@ of London</string>
                             <constraint firstItem="qKP-sY-HWe" firstAttribute="width" secondItem="TLO-EH-q3s" secondAttribute="width" id="wBj-zT-LnN"/>
                             <constraint firstItem="C1Y-AD-Cc6" firstAttribute="top" secondItem="TLO-EH-q3s" secondAttribute="top" id="z2z-q2-RVY"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="oCI-BF-FwG"/>
                     </view>
                     <size key="freeformSize" width="375" height="1320"/>
                     <connections>
@@ -1072,7 +1073,7 @@ of London</string>
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eH7-OU-6gL" userLabel="CheckCollection">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eH7-OU-6gL" userLabel="CheckCollection">
                                                 <rect key="frame" x="84" y="848" width="206" height="32"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
@@ -1285,7 +1286,7 @@ of London</string>
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EYc-Uz-5RZ" userLabel="ContactUs">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EYc-Uz-5RZ" userLabel="ContactUs">
                                                 <rect key="frame" x="21" y="3398" width="72" height="31.333333333333332"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
@@ -1302,7 +1303,7 @@ of London</string>
                                                     <action selector="Contact_URL:" destination="SMr-GE-Z0k" eventType="touchUpInside" id="4ib-YG-vkM"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d39-Dh-5MW" userLabel="Queries">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d39-Dh-5MW" userLabel="Queries">
                                                 <rect key="frame" x="21" y="3425" width="153" height="31.333333333333332"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
@@ -1319,7 +1320,7 @@ of London</string>
                                                     <action selector="Report_URL:" destination="SMr-GE-Z0k" eventType="touchUpInside" id="cYo-o6-XZN"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DG4-S0-Frl" userLabel="RecyclingBanks">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DG4-S0-Frl" userLabel="RecyclingBanks">
                                                 <rect key="frame" x="21" y="3454" width="173" height="31.333333333333332"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
@@ -1336,7 +1337,7 @@ of London</string>
                                                     <action selector="Banks_URL:" destination="SMr-GE-Z0k" eventType="touchUpInside" id="W5E-VV-Bln"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ozi-md-84u" userLabel="BulkyWaste">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ozi-md-84u" userLabel="BulkyWaste">
                                                 <rect key="frame" x="21" y="3481" width="111" height="31.333333333333332"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
@@ -1353,7 +1354,7 @@ of London</string>
                                                     <action selector="Bulky_URL:" destination="SMr-GE-Z0k" eventType="touchUpInside" id="w7u-fo-VB6"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a1U-Zk-JNY" userLabel="DoorstepFood">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a1U-Zk-JNY" userLabel="DoorstepFood">
                                                 <rect key="frame" x="21" y="3509" width="189" height="31.333333333333332"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
@@ -1370,7 +1371,7 @@ of London</string>
                                                     <action selector="Doorstep_URL:" destination="SMr-GE-Z0k" eventType="touchUpInside" id="sLK-4n-8Fg"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Izf-dC-aOM" userLabel="CommunalFood">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Izf-dC-aOM" userLabel="CommunalFood">
                                                 <rect key="frame" x="21" y="3537" width="199" height="31.333333333333332"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
@@ -1387,7 +1388,7 @@ of London</string>
                                                     <action selector="Communal_URL:" destination="SMr-GE-Z0k" eventType="touchUpInside" id="SOD-yL-Umn"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="75L-Rz-5Kt" userLabel="PDF">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="75L-Rz-5Kt" userLabel="PDF">
                                                 <rect key="frame" x="21" y="3563" width="283" height="31.333333333333332"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
@@ -1411,7 +1412,7 @@ of London</string>
                                                     <segue destination="B2n-7V-L6i" kind="embed" id="9FA-r1-d7a"/>
                                                 </connections>
                                             </containerView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7d4-C4-gkR" userLabel="DailyCollection">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7d4-C4-gkR" userLabel="DailyCollection">
                                                 <rect key="frame" x="60" y="1077" width="254" height="32"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
@@ -1445,6 +1446,7 @@ of London</string>
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="bGZ-Vb-hdt"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="EGg-jh-wmK" firstAttribute="leading" secondItem="VNS-91-zKJ" secondAttribute="leading" id="67P-Ox-53U"/>
@@ -1453,7 +1455,6 @@ of London</string>
                             <constraint firstAttribute="bottom" secondItem="EGg-jh-wmK" secondAttribute="bottom" id="dYs-ZR-Z4f"/>
                             <constraint firstItem="EGg-jh-wmK" firstAttribute="top" secondItem="VNS-91-zKJ" secondAttribute="top" id="gkq-37-0ap"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="bGZ-Vb-hdt"/>
                     </view>
                     <size key="freeformSize" width="375" height="3600"/>
                 </viewController>
@@ -1488,6 +1489,7 @@ of London</string>
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="1ai-Do-gdP"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="hHe-Uy-NZM" secondAttribute="bottom" id="Fca-7b-uOo"/>
@@ -1496,7 +1498,6 @@ of London</string>
                             <constraint firstItem="lnK-v6-GKK" firstAttribute="width" secondItem="9dh-YT-EbM" secondAttribute="width" id="eCT-7h-dqs"/>
                             <constraint firstItem="hHe-Uy-NZM" firstAttribute="leading" secondItem="9dh-YT-EbM" secondAttribute="leading" id="iYn-wS-KCI"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="1ai-Do-gdP"/>
                     </view>
                     <size key="freeformSize" width="334" height="600"/>
                     <connections>
@@ -1742,6 +1743,7 @@ of London</string>
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="hRn-7F-MGc"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="e62-tb-Aoc" firstAttribute="top" secondItem="Vg7-Pb-GqE" secondAttribute="top" id="UDo-Hy-Ek5"/>
@@ -1750,7 +1752,6 @@ of London</string>
                             <constraint firstAttribute="trailing" secondItem="e62-tb-Aoc" secondAttribute="trailing" id="eWq-f5-zdK"/>
                             <constraint firstAttribute="bottom" secondItem="e62-tb-Aoc" secondAttribute="bottom" id="uzy-Xb-0UK"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="hRn-7F-MGc"/>
                     </view>
                     <size key="freeformSize" width="375" height="2090"/>
                 </viewController>
@@ -1767,7 +1768,7 @@ of London</string>
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="selectedImageTintColor" systemColor="darkTextColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="beS-ri-B14" kind="relationship" relationship="viewControllers" id="5RJ-Qy-DfE"/>
@@ -1803,5 +1804,14 @@ of London</string>
         <image name="gardenRecycle" width="221.33332824707031" height="135"/>
         <image name="imagePic" width="32" height="32"/>
         <image name="notRecyclable" width="233.33332824707031" height="83.666664123535156"/>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

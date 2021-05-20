@@ -1,12 +1,3 @@
-//
-//  DisposalCentres.swift
-//  iRecycle
-//
-//  Created by Luca Santarelli on 16/01/2020.
-//  Copyright © 2020 Luca Santarelli. All rights reserved.
-//
-
-/* This class file (DisposalCentres.swift) was created and is used for to implement any additional features in the D. CENTRES tab bar view easily. */
 
 import UIKit
 import MapKit //Imported library to use the maps element in our app.

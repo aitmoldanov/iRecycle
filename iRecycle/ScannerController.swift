@@ -1,14 +1,3 @@
-//
-//  ScannerController.swift
-//  iRecycle
-//
-//  Created by Luca Santarelli on 16/12/2019.
-//  Copyright © 2019 Luca Santarelli. All rights reserved.
-//
-
-/* NOTE: Not all code belongs to me (Luca Santarelli) within this class. All the code belonging to someone else other than me will be referenced in comments, accordingly. Comments throughout the code have been added by me. */
-
-/* This class was created and used to implement the scanner feature, in one of the app's views, which is connected directly to the main view (HOME tab bar view).*/
 
 import UIKit
 import RealmSwift //Library for the Realm database to function.

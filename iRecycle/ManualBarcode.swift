@@ -1,12 +1,3 @@
-//
-//  ManualBarcode.swift
-//  iRecycle
-//
-//  Created by Luca Santarelli on 06/02/2020.
-//  Copyright © 2020 Luca Santarelli. All rights reserved.
-//
-
-/* This class was created and used to manually input the EAN13 barcode identifier of a product, allowing for its data to be displayed, if identified, or added to the database, if not. */
 
 import UIKit
 import RealmSwift //Library for the Realm database to function.

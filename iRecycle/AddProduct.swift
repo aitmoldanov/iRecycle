@@ -1,10 +1,3 @@
-//
-//  AddProduct.swift
-//  iRecycle
-//
-//  Created by Luca Santarelli on 31/01/2020.
-//  Copyright © 2020 Luca Santarelli. All rights reserved.
-//
 
 /* This class was created and used to add new unidentified products to the database. Here the API is used to try and retrieve the name and image URLs of the unidentified product to save.
  

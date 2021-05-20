@@ -1,12 +1,3 @@
-//
-//  TowerHamlets.swift
-//  iRecycle
-//
-//  Created by Luca Santarelli on 16/01/2020.
-//  Copyright © 2020 Luca Santarelli. All rights reserved.
-//
-
-/* This class was created and used to implement any additional features in the T. HAMLETS tab bar view easily. */
 
 import UIKit
 

@@ -1,12 +1,3 @@
-//
-//  DisplayRecycling.swift
-//  iRecycle
-//
-//  Created by Luca Santarelli on 30/01/2020.
-//  Copyright © 2020 Luca Santarelli. All rights reserved.
-//
-
-/* This class was created and used to display the 'how to recycle' and general information of an identified scanned product. This class is connected to the Display Recycling view. */
 
 import UIKit
 
